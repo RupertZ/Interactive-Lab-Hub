@@ -111,11 +111,11 @@ We invented this tool for this lab!
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record.
 
-**Include your first attempts at recording the set-up video here.**
+**First attempt set-up video:** https://drive.google.com/file/d/1mCiNmq1LRgm_5enLPFR1ORy4KInUGv8z/view?usp=sharing
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype.
 
-**Show the follow-up work here.**
+**Follow-up work paper prototype:** https://drive.google.com/file/d/1ZEmXcG8bFWZv0Na1BPMZkCqOYQU8VQFw/view?usp=sharing
 
 ## Part E. Costume the device
 
