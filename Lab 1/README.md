@@ -68,20 +68,22 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-**_Setting:_ The interaction happens at people's bedroom - the sleep pattern is vital to people's daily life and work performance. The wake-up light could help people to adjust their internal body clock and therefore enhance the sleep quality (Borbely, A. A., & Achermann, P. (1992). Concepts and models of sleep regulation: An overview. Journal of Sleep Research). The design of this device is to work as a smart lamp that wake up users according to their sleep pattern. In addition, the color of light will intuitively tell the users the basic information of today's weather. (耗子尾汁，How's the weather)**
+**_Setting:_** The interaction happens at people's bedroom - the sleep pattern is vital to people's daily life and work performance. The wake-up light could help people to adjust their internal body clock and therefore enhance the sleep quality (Borbely, A. A., & Achermann, P. (1992). Concepts and models of sleep regulation: An overview. Journal of Sleep Research). The design of this device is to work as a smart lamp that wake up users according to their sleep pattern. In addition, the color of light will intuitively tell the users the basic information of today's weather. (耗子尾汁，How's the weather)
 
-**_Players:_ The players involved in this interaction are the users in their bedrooms. Usually, this smart lamp will only serve one user since it will adapt to only one user's sleep pattern; it is not recommended to be user in a bedroom that has multiple people because it may interrupts other people's sleep. In that case, the lamp will only follow the preset schedule like a normal alarm clock.**
+**_Players:_** The players involved in this interaction are the users in their bedrooms. Usually, this smart lamp will only serve one user since it will adapt to only one user's sleep pattern; it is not recommended to be user in a bedroom that has multiple people because it may interrupts other people's sleep. In that case, the lamp will only follow the preset schedule like a normal alarm clock.
 
-**_Activity:_ The player will be waked up by the smart light and being informed by the color of the light to know the basic weather information.**
+**_Activity:_** The player will be waked up by the smart light and being informed by the color of the light to know the basic weather information.
 
-**_Goals:_ The player will wake up on time and gradually adjust their sleep pattern to the optimal.**
+**_Goals:_** The player will wake up on time and gradually adjust their sleep pattern to the optimal.
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene.
-**Include a picture of your storyboard here**
+
+
 ![image](IMG_7662.png)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
-**Eric and Heidi thought it was a good idea of building a handy smart home device. Although the concept seems a little bit commonplace, the innovation in the detail still makes it a practical device in the daily life.**
+
+**Feedbacks:**Eric and Heidi thought it was a good idea of building a handy smart home device. Although the concept seems a little bit commonplace, the innovation in the detail still makes it a practical device in the daily life.
 
 
 ## Part B. Act out the Interaction
@@ -90,7 +92,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 **Are there things that seemed better on paper than acted out?**
 
+**There are not quite a lof of differences** since the concept is relatively simple and requires minimal manipulations from the users, therefore the only thing that seemed better on paper is the reaction speed of the device: when acting out, it takes time to adjust the brightness and the color of the light.
+
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
+
+The light could deliver even more information than weather. There is a full color palette in tinkerbelle and therefore it could display way more information than the original design.
 
 
 ## Part C. Prototype the device
@@ -100,7 +106,7 @@ You will be using your smartphone as a stand-in for the device you are prototypi
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
 We invented this tool for this lab!
-**Give us feedback on Tinkerbelle.**
+**Give us feedback on Tinkerbelle:** The overall design is great. The interface is intuitive and easy to use. Admittedly there are some connection issues during the setup, but they could be resolved in the future version to enhance the compatibility and the robustness.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record.
