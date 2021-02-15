@@ -98,6 +98,8 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 The light could deliver even more information than weather. There is a full color palette in tinkerbelle and therefore it could display way more information than the original design.
 
+On the other hand, although I deliberately exclude the audio element in the original design, I finally decide to involve audio/voice interaction in this device to enhance the user experience and the information delivery.
+
 
 ## Part C. Prototype the device
 
@@ -106,7 +108,9 @@ You will be using your smartphone as a stand-in for the device you are prototypi
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
 We invented this tool for this lab!
-**Give us feedback on Tinkerbelle:** The overall design is great. The interface is intuitive and easy to use. Admittedly there are some connection issues during the setup, but they could be resolved in the future version to enhance the compatibility and the robustness.
+**Give us feedback on Tinkerbelle:**
+
+The overall design is great. The interface is intuitive and easy to use. Admittedly there are some connection issues during the setup, but they could be resolved in the future version to enhance the compatibility and the robustness.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record.
@@ -123,17 +127,21 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-**Include sketches of what your device might look like here.**
+**Sketches of the device:** ![image](IMG_7663.png)
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
+
+Minimalism.
+
+Since the device requires minimal manipulations from the users. It will be fully automated and controlled by the internal system and software.
 
 
 ## Part F. Record
 
-**Take a video of your prototyped interaction.**
+**Video of the prototyped interaction:** https://drive.google.com/file/d/13bTx9ULjG-7WnsCAiTySZff-MyniG7Vp/view?usp=sharing
 
 **Please indicate anyone you collaborated with on this Lab.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design.
+I collaborated with Eric Chen, Heidi He, and Ahaan Parekh in the breakout room. I finished the prototyping and the video recording by myself.
 
 # Staging Interaction, Part 2
 
