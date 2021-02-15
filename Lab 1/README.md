@@ -70,12 +70,18 @@ The interactive device can be anything *except* a computer, a tablet computer or
 
 **_Setting:_ The interaction happens at people's bedroom - the sleep pattern is vital to people's daily life and work performance. The wake-up light could help people to adjust their internal body clock and therefore enhance the sleep quality (Borbely, A. A., & Achermann, P. (1992). Concepts and models of sleep regulation: An overview. Journal of Sleep Research). The design of this device is to work as a smart lamp that wake up users according to their sleep pattern. In addition, the color of light will intuitively tell the users the basic information of today's weather. (耗子尾汁，How's the weather)**
 
+**_Players:_ The players involved in this interaction are the users in their bedrooms. Usually, this smart lamp will only serve one user since it will adapt to only one user's sleep pattern; it is not recommended to be user in a bedroom that has multiple people because it may interrupts other people's sleep. In that case, the lamp will only follow the preset schedule like a normal alarm clock.**
+
+**_Activity:_ The player will be waked up by the smart light and being informed by the color of the light to know the basic weather information.**
+
+**_Goals:_ The player will wake up on time and gradually adjust their sleep pattern to the optimal.**
+
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene.
 **Include a picture of your storyboard here**
 ![image](IMG_7662.png)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
-**Summarize feedback you got here.**
+**Eric and Heidi thought it was a good idea of building a handy smart home device. Although the concept seems a little bit commonplace, the innovation in the detail still makes it a practical device in the daily life.**
 
 
 ## Part B. Act out the Interaction
