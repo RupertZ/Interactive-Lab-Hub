@@ -152,7 +152,16 @@ This describes the second week's work for this lab activity.
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear.
 
-**Summarize feedback from your partners here.**
+**Summarize feedback from partners:**
+
+Erin Gong: The video is very clear about the goals and the activities. I really like your idea of changing the light color based on the weather of the day (and the stock price of course)! My only concern would be that the device may not be as beneficial to people who don’t have black out curtains. Adding a sound and/or vibration option might make the device more widely accepted.
+
+Jingjun Wang: You explained really well the functionalities and purposes of the wake-up-light. I saw in the video how the light switched colors to signal different weather conditions. The irony at the end where the light showed sympathy by laughing and clapping is hilarious. It'd be interesting if the light can also remind users to sleep after a certain hour when they break their sleep patterns.
+
+Yanjun Zhou: This is a very interesting design which I can see that the light is used as an indicator of the status the car itself and its surrounding traffic condition. Green light is a sign of the safe condition while the red or flashing pink are corresponding to some dangerous operations or traffic condition, while the latter I cannot clearly tell the difference between them. My suggestion is that the use of the light can be simplified into a certain number of kinds to let the user memorize function of each light more easily. Besides, sound effects can be applied to improve the user experience.
+
+Heidi He: Your design of this small interactive piece is fun and useful. This smart lamp can be seamlessly embedded in our daily life. The interaction is simple and intuitive. It serves a sleepy user well by simplifying the number of actions from a user. Moreover, the color matches the theme of the weather, reflecting one’s feelings on each particular day. The Chinese translation and the small decorations are very cute and make this product more humane.
+
 
 ## Make it your own
 
