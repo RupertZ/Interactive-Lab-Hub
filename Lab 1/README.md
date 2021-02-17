@@ -162,6 +162,9 @@ Yanjun Zhou: This is a very interesting design which I can see that the light is
 
 Heidi He: Your design of this small interactive piece is fun and useful. This smart lamp can be seamlessly embedded in our daily life. The interaction is simple and intuitive. It serves a sleepy user well by simplifying the number of actions from a user. Moreover, the color matches the theme of the weather, reflecting one’s feelings on each particular day. The Chinese translation and the small decorations are very cute and make this product more humane.
 
+Eric Chen: I like the idea of the device especially how you thought of and implemented sound effects with the color. As a Robinhood user, I find it interesting on how the light would instantly show me the  trend of the stocks I have. Although it might be a very subjective matter, it's still quite an interesting concept and I can see people using it. My suggestion would be since you are implementing the audio, you can combine it and provide some useful data such as telling the user the temperature and wind chill.
+Also I am wondering if the light is supposed to wake people up, or it's just a complimentary feature on top of the actual alarm clock? If it is, the brightness of the light might be quite important.
+
 
 ## Make it your own
 
