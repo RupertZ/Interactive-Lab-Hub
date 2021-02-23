@@ -190,8 +190,8 @@ The major improvement I made here are:
 
 **Video of the prototyped interaction:**
 
-https://drive.google.com/file/d/13bTx9ULjG-7WnsCAiTySZff-MyniG7Vp/view?usp=sharing
+https://drive.google.com/file/d/1LdNCG1NFEX9alwUQdFqKSQ9UoM5LLYL1/view?usp=sharing
 
 **Please indicate anyone you collaborated with on this Lab.**
 
- I finished the prototyping and the video recording by myself.
+ I finished the prototyping and the video recording by myself. Credit to my cat (Ergo) who starred in my demo video.
