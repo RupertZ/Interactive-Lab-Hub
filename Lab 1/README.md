@@ -186,4 +186,12 @@ The major improvement I made here are:
 
 2) The vibration and sound are now available. Although it is not suppose to use sound to wake people up like a normal clock, which is less effective comparing with specific lights, the voice could convey more information such as the detailed temperature to help the users prepare for the heat wave or the wind chill. It could also plays user's favorite news and podcasts such as stock markets and traffic information.
 
-3) The light will also provides charging ports for smartphones. 
+3) The light will also provides charging ports for smartphones.
+
+**Video of the prototyped interaction:**
+
+https://drive.google.com/file/d/13bTx9ULjG-7WnsCAiTySZff-MyniG7Vp/view?usp=sharing
+
+**Please indicate anyone you collaborated with on this Lab.**
+
+ I finished the prototyping and the video recording by myself.
