@@ -174,3 +174,8 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity.
 
 **Document everything here.**
+
+Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene.
+
+
+![image](storyboard2.PNG)
