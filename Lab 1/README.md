@@ -179,3 +179,11 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 
 ![image](storyboard2.PNG)
+
+The major improvement I made here are:
+
+1) On top of the ordinary alarm clock feature, I made this smart device being more "smart": Now it leverages the power of machine learning and the sleep pattern database to further improve the sleep pattern of the users. When the users are about to break their sleep patterns, the clock will send alarm by light and voice to tell the users it is time to sleep/wake up and it is important to keep it up; if they really can't follow the suggestion, the clock will adapt to the new pattern and gently help the users to adjust in the future weeks to come back to the healthier patterns.
+
+2) The vibration and sound are now available. Although it is not suppose to use sound to wake people up like a normal clock, which is less effective comparing with specific lights, the voice could convey more information such as the detailed temperature to help the users prepare for the heat wave or the wind chill. It could also plays user's favorite news and podcasts such as stock markets and traffic information.
+
+3) The light will also provides charging ports for smartphones. 
