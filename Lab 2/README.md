@@ -168,6 +168,14 @@ After that git will ask you to login to your github account to upload.
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
+## Kung Fu Master Ma Baoguo Clock:
+
+Master Ma Baoguo is urging you to get up early to practice `Song Guo Tan Dou Shan Dian Bian` (Lightning whip)
+
+![image](Mabaoguo1.jpg)
+
+![image](Mabaoguo2.jpg)
+
 **Take a video of your PiClock.**
 
 ## Part G. 
