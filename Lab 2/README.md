@@ -170,11 +170,11 @@ After that git will ask you to login to your github account to upload.
 
 ## Kung Fu Master Ma Baoguo Clock:
 
-Master Ma Baoguo is urging you to get up early to practice `Song Guo Tan Dou Shan Dian Bian` (Lightning whip)
+Master Ma Baoguo is urging you to get up early to practice best Kung Fu `Song Guo Tan Dou Shan Dian Bian` (Loose Five Flicking Lightning Whip)
 
-![image](Mabaoguo1.JPG)
+![image](mabaoguo1.JPG)
 
-![image](Mabaoguo2.JPG)
+![image](mabaoguo2.JPG)
 
 **Take a video of your PiClock.**
 
