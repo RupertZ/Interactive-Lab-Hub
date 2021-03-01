@@ -172,9 +172,9 @@ After that git will ask you to login to your github account to upload.
 
 Master Ma Baoguo is urging you to get up early to practice `Song Guo Tan Dou Shan Dian Bian` (Lightning whip)
 
-![image](Mabaoguo1.jpg)
+![image](Mabaoguo1.JPG)
 
-![image](Mabaoguo2.jpg)
+![image](Mabaoguo2.JPG)
 
 **Take a video of your PiClock.**
 
