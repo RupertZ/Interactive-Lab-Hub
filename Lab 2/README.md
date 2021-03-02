@@ -178,6 +178,8 @@ Master Ma Baoguo is urging you to get up early to practice best Kung Fu `Song Gu
 
 **Take a video of your PiClock.**
 
+Link: https://drive.google.com/file/d/1fWPVLEmc0S7HYXxM5JNsh0An-HEPadp8/view?usp=sharing
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
