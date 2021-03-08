@@ -199,4 +199,12 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
+## I enable the joystick to control the screen image. It will show different image of Master Ma Baoguo accroding to the direction of the joystick
+
+![image](demo1.jpg)
+
+![image](demo2.jpg)
+
+Link: https://drive.google.com/file/d/15FnWmL25BEp2n7R2D9vxdntsE84pKdUV/view?usp=sharing
+
 
