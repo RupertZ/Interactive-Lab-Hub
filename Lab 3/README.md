@@ -93,7 +93,13 @@ The system should:
 * use one or more sensors
 * require participants to speak to it. 
 
-*Document how the system works*
+*Document how the system works:*
+
+*Raspberry Noah*
+
+The system requires two people: a player and an operator. The player have to guess and say the keyword (in this case, is "this is so cool" or "cool" which are the favorite terms of Prof. Snavely). If the word is wrong, the screen will show "404, motivation not found" and the game can not proceed. If the word is correct, then Prof. Noah Snavely's face will appear and greet the player. Then, the player can use the joystick to control the screen to see different photos of Noah saying "This is so cool".
+
+The system requires the player use voice and joystick to control. The operator control the system with keyboard and the webapp. If the operater would like to, they are also able to use the text2speech to pass information to the player by the speaker or headphone.
 
 *Include videos or screencaptures of both the system and the controller.*
 
