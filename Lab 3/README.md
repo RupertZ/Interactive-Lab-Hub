@@ -108,6 +108,8 @@ The system requires the player use voice and joystick to control. The operator c
 ![image](n3.jpg)
 ![image](n4.jpg)
 
+Link to the demo video: https://drive.google.com/file/d/1Rf3ios0r1OOLydsipkuQ2YctX-4TT4fZ/view?usp=sharing
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
