@@ -108,18 +108,23 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-*your answer here*
+*The system worked well on both reacting to the microphone and the joystick. The webapp which referred to the demo worked as it should, and the joystick which allows the user to interact with Professor Snavely is very responsive.*
 
+*However, the design at this moment still requires manual operation behind the scene which is similar to the demo. I used pygame pacakge to control the screen so when the operator hear keyword "cool" from the webapp they can manually change the information on screen (not including the joystick-controlled contents).*
+
+*The original idea is to utilize the "speech2text" feature of Raspberry Pi to automatically recognize the keyword and then react, which does not require an operator. However, I found it is technically challenging especially in a short time. I will try to build it in future labs if I get the chance.*
 ### What worked well about the controller and what didn't?
 
-*your answer here*
+*The joystick as the controller works pretty responsive and steady.The x and y coordinates which reflects the directions could be accurately captured.*
+
+*The only thing the controller(s) did not work well is that because I don't have a bread board and therefore I can't add more controllers to the I2C bus. With only a single controller there are many features in my original ideas can not be realized.*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-*your answer here*
+*Using the speech2text feature to make a automated version instead of asking a human operator to work on it.*
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-*your answer here*
+*The coordinates input from the joystick are valuable datasets. Also, the speech input could also be saved and created as dataset.*
 
