@@ -68,9 +68,23 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
 
+This is a parody piece of Prof. Noah Snavely of Cornell's CS department. 
+
+When user says "This is so cool" or "cool", the screen of Raspberry Pi will show the face of Prof. Snavely to send greetings.
+
+If the user says something else, the screen will simply say "404, motivation was not found".
+
+Only when the users said the magic word "cool", they may proceed to the next step:
+
+They can use joystick to control the display to show different pics of Professor Snavely.
+
+I gave the name to this design as "Raspberry Noah".
+
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *what was the feedback? Who did it come from?*
+
+Yanjun and Renzhi: This idea is sooooo cooooool!
 
 ## Prototype your system
 
