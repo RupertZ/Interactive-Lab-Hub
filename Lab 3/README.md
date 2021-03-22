@@ -97,6 +97,11 @@ The system should:
 
 *Include videos or screencaptures of both the system and the controller.*
 
+![image](n1.jpg)
+![image](n2.jpg)
+![image](n3.jpg)
+![image](n4.jpg)
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
