@@ -130,9 +130,17 @@ Make a paper display for your project that communicates the state of the Pi and 
  
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
+The design of this device is simple: it uses sensors to measure the perfume in the box,
+in both milliliter and (converted) how many sprays left. This design could give detailed info
+on the fragrance and remind users to plan wisely.
+
 **b. Make a video of your paper display in action.**
 
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+The smart perfume box has adaptive internal space that could handle most of perfume bottles.
+The banana clips inside the box and other sensors could connect to the conductive parts of 
+the bottles to measure and calculate how much liquid is left. A TFT screen is on the top right window of this box to show the information to the user in an intuitive way.
 
 ### Part D
 ### Materiality
@@ -143,5 +151,24 @@ Design a system with the Pi and anything from your kit with a focus on form, and
 
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
 
-**b. explain the selection.**
+The material prototype is almost same as the previous part. I just replaced paper prototypes
+with acutal parts to make it work. However, since I did not have all sensors I need, I have
+to mock some functions instead of actual implement them.
 
+**b. explain the selection.**
+The banana clips with the capacitive touch sensors are used to sense the touch from the user.
+Once the spray nozzle (which is conductive because it was made from metal) has been touched by the user, then the system will response accordingly.
+
+### Deliverables for this lab are: 
+1. Sketches/photos of device designs
+1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+3. "Works like" prototypes: show us what the device can do
+4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
+![image](1.jpg)
+![image](2.jpg)
+![image](3.jpg)
+![image](4.jpg)
+
+video: https://drive.google.com/file/d/16WsCjMV5qAn_bb9XdQxQ17KBCBg8MGF5/view?usp=sharing
+
+5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
