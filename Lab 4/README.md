@@ -164,10 +164,13 @@ Once the spray nozzle (which is conductive because it was made from metal) has b
 1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
 3. "Works like" prototypes: show us what the device can do
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
-![image](1.HEIC)
-![image](2.HEIC)
-![image](3.HEIC)
-![image](4.HEIC)
+![image](1.jpg)
+
+![image](2.jpg)
+
+![image](3.jpg)
+
+![image](4.jpg)
 
 video: https://drive.google.com/file/d/16WsCjMV5qAn_bb9XdQxQ17KBCBg8MGF5/view?usp=sharing
 
