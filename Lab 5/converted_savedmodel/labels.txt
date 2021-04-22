@@ -1,0 +1,5 @@
+0 Cat:Terra
+1 Cat:Sid
+2 Cat toy
+3 No Cat
+4 Nothing at all
