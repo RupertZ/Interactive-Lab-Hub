@@ -214,3 +214,5 @@ Video link: https://drive.google.com/file/d/18Bzc9BpsCuQN6tV23W1jo6TEpghYX8PN/vi
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **Include a short video demonstrating the finished result.**
+
+Video: https://drive.google.com/file/d/1dHQ8HQeduTpBoStpYUlzPiQkIwQzNg9U/view?usp=sharing
