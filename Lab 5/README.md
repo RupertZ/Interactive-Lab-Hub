@@ -131,18 +131,23 @@ Therefore, I decide to leverage the power of computer vision and RaspberryPi to 
 In most of cases, there will be 5 situations:
 
 (1) Terra shows up:
+
 ![image](terra.png)
 
 (2) Sid shows up:
+
 ![image](sid.png)
 
 (3) My cat toys, also as a control variable comparing with real cats:
+
 ![image](toy.png)
 
 (4) No cats at all, just myself:
+
 ![image](no_cat.png)
 
 (5) Nothing at all:
+
 ![image](nothing.png)
 
 The model was uploaded to the Google drive: https://teachablemachine.withgoogle.com/models/2GnC3Md3T/
@@ -157,11 +162,25 @@ For example:
 1. When it fails, why does it fail?
 1. Based on the behavior you have seen, what other scenarios could cause problems?
 
+This system is intended to serve as a solution for cat people to avoid cats' interruption during their work and study. It will disconnect the input (mostly keyboard, but also include mouse and touchpad, etc.)
+
+This system is not perfect and will fail under some circumstances: unexpected situations such as unknown subjects appear and therefore causes false positive; people wearing clothes of same color as their cats which also causes false positive; and the errors due to different lightings.
+
+It is also not a general system as people have different cats. It should be re-trained when used by different people or with different lightings/backgrounds.
+
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
 1. How bad would they be impacted by a miss classification?
 1. How could change your interactive system to address this?
 1. Are there optimizations you can try to do on your sense-making algorithm.
+
+(1) This system takes care most of uncertainties; however, just like what said previously, it is not perfect and people have to be aware about different lightings and backgrounds.
+
+(2) Miss classification will only cause false positive here, which mistakenly recognize other objects as cats and therefore disconnect the inputs. This will cause bad experience during work.
+
+(3) More samples and corner case handling.
+
+(4) The camera is not necessarily always stays on; it could be turn off if it realize the environment is almost quiet and cat-free.
 
 ### Part D
 ### Characterize your own Observant system
@@ -176,7 +195,19 @@ During the lecture, we mentioned questions to help characterize a material:
 * What are other properties/behaviors of X?
 * How does X feel?
 
+It can be used in a environment that people focus on their work and have no time to deal with their cats who appear at a wrong time or a wrong place; a good environment for it is a room with constant lightings and static background; if the background is dynamic (such as outdoors, or on a car) and the lighting is changing, or a place with multiple cats, it could be a pretty bad environment.
+
+This system is not likely to break; however, it may has false positive and mistakenly disconnect the inputs and interrupt user's work. However, the overall feeling and experience of this system is good.
+
 **Include a short video demonstrating the answers to these questions.**
+
+![image](1.png)
+
+![image](2.png)
+
+![image](3.png)
+
+Video link: https://drive.google.com/file/d/18Bzc9BpsCuQN6tV23W1jo6TEpghYX8PN/view?usp=sharing
 
 ### Part 2.
 
