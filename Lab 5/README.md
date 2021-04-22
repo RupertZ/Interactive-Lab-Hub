@@ -1,7 +1,7 @@
 # Observant Systems
 
 
-For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
+For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture.
 Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
 
 This lab will help you think through the design of observant systems, particularly corner cases that the algorithms need to be aware of.
@@ -95,6 +95,7 @@ Using the set up from the [Lab 3 demo](https://github.com/FAR-Lab/Interactive-La
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
 
 Include links to your code here, and put the code for these in your repo--they will come in handy later.
+Link: https://github.com/RupertZ/Interactive-Lab-Hub/tree/Spring2021/Lab%205 (The code is in the root folder of Lab5)
 
 #### Teachable Machines (beta, optional)
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple.  However, its simplicity is very useful for experimenting with the capabilities of this technology.
@@ -120,6 +121,10 @@ Pick one of the models you have tried, pick a class of objects, and experiment w
 This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
+
+Although I'm always happy and feel lucky of being a cat person, as a programmer, I realized that it is inevitable to work in room with the existence of my cats. It could be a huge headache when they (intentionally) step on my keyboard and sometimes destroy my hours of works. Admittedly, version control will be there to help me out, however, if I forget to commit my works frequently, it could still be a nightmare.
+
+![image](4.jpeg)
 
 ### Part C
 ### Test the interaction prototype
@@ -157,4 +162,3 @@ During the lecture, we mentioned questions to help characterize a material:
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **Include a short video demonstrating the finished result.**
-
