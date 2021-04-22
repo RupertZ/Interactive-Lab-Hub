@@ -122,9 +122,30 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
-Although I'm always happy and feel lucky of being a cat person, as a programmer, I realized that it is inevitable to work in room with the existence of my cats. It could be a huge headache when they (intentionally) step on my keyboard and sometimes destroy my hours of works. Admittedly, version control will be there to help me out, however, if I forget to commit my works frequently, it could still be a nightmare.
+Although I'm always happy and feel lucky of being a cat person, as a programmer, I realized that it is inevitable to work in my room with the existence of my cats. It could be a huge headache when they (intentionally) step on my keyboard and sometimes destroy my hours of works. Admittedly, version control will be there to help me out, however, if I forget to commit my works frequently, it could still be a nightmare.
 
 ![image](4.jpeg)
+
+Therefore, I decide to leverage the power of computer vision and RaspberryPi to build a interaction prototype which can recognize my cats and disconnect my keyboard input when my cats approach my computers:
+
+In most of cases, there will be 5 situations:
+
+(1) Terra shows up:
+![image](terra.png)
+
+(2) Sid shows up:
+![image](sid.png)
+
+(3) My cat toys, also as a control variable comparing with real cats:
+![image](toy.png)
+
+(4) No cats at all, just myself:
+![image](no_cat.png)
+
+(5) Nothing at all:
+![image](nothing.png)
+
+The model was uploaded to the Google drive: https://teachablemachine.withgoogle.com/models/2GnC3Md3T/
 
 ### Part C
 ### Test the interaction prototype
