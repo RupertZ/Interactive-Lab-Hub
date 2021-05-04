@@ -4,18 +4,18 @@
 
 1. Pull the new changes
 2. Install [MQTT Explorer](http://mqtt-explorer.com/)
-3. Readings 
+3. Readings
    * [MQTT](#MQTT)
    * [The Presence Table](https://dl.acm.org/doi/10.1145/1935701.1935800) and [video](https://vimeo.com/15932020)
 
 
 ## Introduction
 
-The point of this lab is to introduce you to distributed interaction. We've included a some Natural Language Processing (NLP) and Generation (NLG) but those are not really the emphasis. Feel free to dig into the examples and play around the code which you can integrate into your projects. However we want to emphasize the grading will focus on your ability to develop interesting uses for messaging across distributed devices. 
+The point of this lab is to introduce you to distributed interaction. We've included a some Natural Language Processing (NLP) and Generation (NLG) but those are not really the emphasis. Feel free to dig into the examples and play around the code which you can integrate into your projects. However we want to emphasize the grading will focus on your ability to develop interesting uses for messaging across distributed devices.
 
 ## MQTT
 
-MQTT is a lightweight messaging portal invented in 1999 for low bandwidth networks. It was later adopted as a defacto standard for a variety of Internet of Things (IoT) devices. 
+MQTT is a lightweight messaging portal invented in 1999 for low bandwidth networks. It was later adopted as a defacto standard for a variety of Internet of Things (IoT) devices.
 
 ### The Bits
 
@@ -25,7 +25,7 @@ MQTT is a lightweight messaging portal invented in 1999 for low bandwidth networ
 *  **Subscribe** - This is a way of telling the client to pay attention to messages the broker sends out on that topic. You can subscribe to a specific topic or subtopics. You can also unsubscribe
 * **Publish** - This is a way of sending messages to a topic. You can publish to topics you don't subscribe to. Just remember on our broker you are limited to subtopics of `IDD`
 
-Setting up a broker isn't much work but for the purposes of this class you should all use the broker we've set up for you. 
+Setting up a broker isn't much work but for the purposes of this class you should all use the broker we've set up for you.
 
 ### Useful Tooling
 
@@ -41,9 +41,9 @@ Once connected you should be able to see all the messaged on the IDD topic. From
 
 
 
-## Send and Receive 
+## Send and Receive
 
-[sender.py](./sender.py) and and [reader.py](./reader.py) show you the basics of using the mqtt in python.  Lets spend a few minutes running these and seeing how messages are transferred and show up. 
+[sender.py](./sender.py) and and [reader.py](./reader.py) show you the basics of using the mqtt in python.  Lets spend a few minutes running these and seeing how messages are transferred and show up.
 
 **Running Examples**
 
@@ -51,9 +51,25 @@ Once connected you should be able to see all the messaged on the IDD topic. From
 * to run `sender.py` type `python sender.py` and fill in a topic name, then start sending messages. You should see them on MQTT Explorer
 * to run `reader.py` type `python reader.py` and you should see any messages being published to `IDD/` subtopics.
 
+Running sender.py:
+
+![image](3.png)
+
+Running reader.py:
+
+![image](4.png)
+
+On MQTT explorer:
+
+![image](5.png)
+
 ## Streaming a Sensor
 
 We've included an updated example from [lab 4](https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/Spring2021/Lab%204) that streams sensor inputs over MQTT. Feel free to poke around with it!
+
+On MQTT explorer:
+
+![image](6.png)
 
 ## The One True ColorNet
 
@@ -67,7 +83,7 @@ You are almost there!
 
 The second step to achieving our great enlightenment is to run `python color.py`
 
-You will find the two squares on the display. Half is showing an approximation of the output from the color sensor. The other half is up to the collective. Press the top button to share your color with the class. Your color is now our color, our color is now your color. We are one. 
+You will find the two squares on the display. Half is showing an approximation of the output from the color sensor. The other half is up to the collective. Press the top button to share your color with the class. Your color is now our color, our color is now your color. We are one.
 
 I was not super careful with handling the loop so you may need to press more than once if the timing isn't quite right. Also I have't load tested it so things might just immediately break when every pushes the button at once.
 
@@ -77,20 +93,46 @@ Am I not admitted into the collective enlightenment of the *OneColor*?
 
 Of course not! You can got to [https://one-true-colornet.glitch.me/](https://one-true-colornet.glitch.me/) and become one with the ColorNet on the inter-webs.
 
-Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way. 
+Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way.
 
 
 
 ## Make it your own
 
-Find at least one class (more are okay) partner, and design a distributed application together. 
+Find at least one class (more are okay) partner, and design a distributed application together: I worked on this lab with Panda Xu (px48) and Songyu Du (sd933). We shared works on surveillance camera streaming, real time text2speech, and MQTT communications.
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+The system is supposed to use surveillance camera and sensors to watch the food - it is almost inevitable to have some of your food "disappeared" if you got a roommate. Sometimes it is just because of pure mistakes, however, just in case that you don't want your favorite snacks such as kit-kat or Chobani run out before you enjoy them, you might want to install a smart system that could look after the food for you.
+
+In this system, we use streaming video from Raspberry Pi camera V2.1 as the surveillance camera and the mpr121 12 capacitive touch sensor to sense the touches on the food that you cherished. Once the food has been touch, you will be notified by voice prompts to let you know which food has been touched. Then, you can use the camera video to verify who is touching your food, and whether you like to share your food.
+
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+The core hardwares are Raspberry Pi camera V2.1 and mpr121 12 capacitive touch sensor.
+
+![image](7.jpeg)
+
+![image](8.png)
+
+The connection on the surveillance side:
+
+![image](1.jpg)
+
+![image](2.JPG)
+
+The video will be streamed to the local server, while the sensor data updates will be sent through MQTT. The reaction from the controller side will also be send on MQTT.
 
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 
+On the controller side, there are two buttons (red and green) to allow the food owner react to the situations. The food owner could punch the green button, then the speaker on the surveillance side will say "Go ahead and enjoy it", as the food has been granted to share. If the red button has been hit, then the speaker will say "Do not eat my food".
+
+The completed flow will be shown in the next part's video. 
+
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+<figure class="video_container">
+  <iframe src="https://drive.google.com/file/d/1fF0dQHuTwiEvH-T2TIyKJI3Dj5N_cmAa/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
