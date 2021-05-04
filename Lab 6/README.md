@@ -127,12 +127,12 @@ The video will be streamed to the local server, while the sensor data updates wi
 
 On the controller side, there are two buttons (red and green) to allow the food owner react to the situations. The food owner could punch the green button, then the speaker on the surveillance side will say "Go ahead and enjoy it", as the food has been granted to share. If the red button has been hit, then the speaker will say "Do not eat my food".
 
-The completed flow will be shown in the next part's video. 
+The completed flow will be shown in the next part's video.
 
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
-<figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1fF0dQHuTwiEvH-T2TIyKJI3Dj5N_cmAa/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+Demo video:
+
+https://drive.google.com/file/d/1fF0dQHuTwiEvH-T2TIyKJI3Dj5N_cmAa/view?usp=sharing
 
 **5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
