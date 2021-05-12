@@ -20,12 +20,17 @@ We summarized the mistakes and found that in more than half of the incidents tha
 At the beginning stage, we just listed the key components it should have:
 
 (1) A humidifier which could water the plants
+
 (2) A chassis with wheels to give mobility to the planter
+
 (3) A control unit (A Raspberry Pi, of course)
 
 Considering the possibility of self-driving or at least remote-controllable, we also attached a camera for monitoring/pattern recognition and a lamp for night lighting. This is the prototype we got:
 
-![image](planter.jpeg)
+[![demo2](./imgs/vid2.png)](https://drive.google.com/file/d/1C0EGZ9G7-YVlS6hqTTNBQCc0ZQV2MifQ/view?usp=sharing)
+![image](imgs/IMG_5511.jpeg)
+![image](imgs/IMG_5504.jpeg)
+
 
 ## Deliverables
 
@@ -37,7 +42,7 @@ The idea has been shown below:
 
 ![image](story2.jpeg)
 
-Except the RPi and the related hardwares that we familiar already, the key components: the RoboVac, the humidifier, and the humidity sensor are integrated products from third party. Fortunately, we found that they are all controllable via Philips Hue smart home kit. This means, we could call the APIs from Philips hue to control these components as well.
+Except the RPi and the related hardwares that we familiar already, the key components: the RoboVac, the humidifier, the lamp, and the humidity sensor are integrated products from third party. Fortunately, we found that they are all controllable and can be communicated via Philips Hue smart hub, Homebridge, and the RoboVac APIs. This means, we could call the APIs from Philips hue to control these components as well.
 
 
 ### 2. Archive of all code, design patterns, etc. used in the final design. (As with labs, the standard should be that the documentation would allow you to recreate your project if you woke up with amnesia.)
@@ -45,6 +50,20 @@ Except the RPi and the related hardwares that we familiar already, the key compo
 After we built up the prototype, we surveyed each components and have a basic system diagram below:
 
 ![image](diagram.jpeg)
+
+The following is the basic idea of how the system works behind stage:
+
+1. Every plant equips with a humidity sensor to monitor the water level of a plant, and a RoboVac dock.
+2. Once a plant's humidity level is low, the sensor will trigger the RoboVac API to search for the target plant communicating through Homebridge.
+3. The camera will continuously identify the target plant through the object detection that was built on our own matching learning model.
+4. Once the planter sees the target plant, the Homebridge will send the "go_home" command to RoboVac's API.
+5. The RoboVac will start the docking process and will start watering until the humidity level is saturated.
+
+You might be wondering what is the big black box on the RoboVac. It is actually the power source of the system, which contains a power bank that has a 110V plug, a power strip, and two smart plugs that control the lamp and humidifier to turn on and off.
+
+![image](imgs/IMG_5510.jpeg)
+
+
 
 The TFT screen and the Camera module V2 are attached to the designated ports (GPIO I/O header and CSI Camera connector, which is the connector situated between the USB and micro-HDMI ports). The RoboVac and the humidifier are connected by LAN (local area networks) and controlled by the local* Raspberry Pi which attached to the smart planter.
 
@@ -73,8 +92,8 @@ This file will turn on the system and try to build connection to the camera. At 
 We are considering making this planter to be fully automated and this standard object detection is key to the function. However, due to the time constraint, we were unable to finish it before the project deadline. However, we thought it is still a cool idea to try in the future.
 
 ### 3. Video of someone using your project (or as safe a version of that as can be managed given social distancing)
+[![demo2](./imgs/vid2.png)](https://drive.google.com/file/d/1C0EGZ9G7-YVlS6hqTTNBQCc0ZQV2MifQ/view?usp=sharing)
 
-https://drive.google.com/file/d/1EwjxWuJTz4neTi9kRxdya0_QexPw24z-/view
 
 ### 4. Reflections on process (What have you learned or wish you knew at the start?)
 
@@ -82,8 +101,12 @@ https://drive.google.com/file/d/1EwjxWuJTz4neTi9kRxdya0_QexPw24z-/view
 
 2. The MQTT is laggy. The idea of remote control is based on the trust of the MQTT connection, however, we found it is more easily to fail than we thought. Since we collaborate remotely, it took even more time to test our system and the time consumed by testing is even more than the time for development. Therefore, we are somehow "forced" to "wizard" or mock up this demo video.
 
-3. The overall experience is fun: we are trying to integrate everything we learned from this course in this final project: the TFT screen display/interactions from Lab 2, physical prototyping from Lab 4, observant systems from Lab 5, and the MQTT connections from Lab 6. We found all these content useful and they empowered us to build a complete system that we want for an open-ended project.
+3. Currently, our solution relies on calling Phillps hue sensor (humidity and light intensity) to trigger the humidifier and the lamp through Homebridge. It requires a lot thrid party packages and hardware (a Philips hue bridge and another pi for Homebridge).
 
+4. The system should go to the plant once the camera identifies a plant that needs water (when the humidity level is low). But we couldn't directly use the proximity sensor on the Robovac, so we had to call the go_home API command to dock the system to the plant.
+
+
+5. The overall experience is fun: we are trying to integrate everything we learned from this course in this final project: the TFT screen display/interactions from Lab 2, physical prototyping from Lab 4, observant systems from Lab 5, and the MQTT connections from Lab 6. We found all these content useful and they empowered us to build a complete system that we want for an open-ended project.
 
 ## Teams
 

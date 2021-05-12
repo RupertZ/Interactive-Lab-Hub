@@ -113,28 +113,28 @@ while True:
 
 
         elif cool == 1 and not init_state:
-            ma_img = Image.open("1.jpg")
+            ma_img = Image.open("1.png")
             ma_img = ma_img.resize((240, 135), Image.BICUBIC)
 
             disp.image(ma_img, rotation)
 
 
         elif cool == 2 and not init_state:
-            ma_img = Image.open("2.jpg")
+            ma_img = Image.open("2.png")
             ma_img = ma_img.resize((240, 135), Image.BICUBIC)
 
             disp.image(ma_img, rotation)
 
 
         elif cool == 3 and not init_state:
-            ma_img = Image.open("3.jpg")
+            ma_img = Image.open("3.png")
             ma_img = ma_img.resize((240, 135), Image.BICUBIC)
 
             disp.image(ma_img, rotation)
 
 
         elif cool == 4 and not init_state:
-            ma_img = Image.open("4.jpg")
+            ma_img = Image.open("4.png")
             ma_img = ma_img.resize((240, 135), Image.BICUBIC)
 
             disp.image(ma_img, rotation)
